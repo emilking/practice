@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .zagalovok{
+                display: flex;
+                flex-direction: row;
+                margin: 20px;
+                width: 100%;
+                height: 1rem;
+                
+            } 
+
+            .accordion{
+                width: 50%;
+                height: 50px;
+            } 
+
+            .dva{
+                width: 50%;
+            } 
+
+            .accordion{
+                transition: .5s;
+                cursor: pointer;
+                border: none;
+                text-align: center;
+                font-size: 1rem;
+                border-radius: 5px;
+                
+            }
+            .accordion:hover{
+                box-shadow: 0  8px 16px 0 color white;
+                background-color: #ccc;
+                
+
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <h2 class="zagalovok">Animated Accordion</h2>
+        <p class="zagalovok">Click on the buttons to open the collapsible content.</p>
+
+        <button class="accordion">Click</button>
+            <div class="panel">
+                <p class="dva">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+
+            <button class="accordion">Click2</button>
+            <div class="panel">
+                <p class="dva">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <button class="accordion">Click3</button>
+            <div class="panel">
+                <p class="dva">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+    
+    </body>
+</html>
